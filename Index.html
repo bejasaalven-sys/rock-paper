@@ -10,15 +10,12 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
         <header class="header">
             <h1 class="title"><i class="fas fa-hand-fist"></i> Rock Paper Scissors</h1>
             <button class="theme-toggle" id="themeToggle">
                 <i class="fas fa-moon"></i>
             </button>
         </header>
-
-        <!-- Game Stats -->
         <div class="stats">
             <div class="stat">
                 <span class="stat-label">Wins</span>
@@ -33,8 +30,6 @@
                 <span class="stat-value" id="computerScore">0</span>
             </div>
         </div>
-
-        <!-- Game Area -->
         <main class="game-area">
             <!-- Player Choice -->
             <div class="choice-area">
@@ -44,14 +39,10 @@
                         <i class="fas fa-hand-paper choice-icon"></i>
                     </div>
                 </div>
-
-                <!-- Result -->
                 <div class="result-area">
                     <div class="result-text" id="resultText">Choose your move!</div>
                     <div class="score-display" id="roundResult"></div>
                 </div>
-
-                <!-- Computer Choice -->
                 <div class="choice computer-choice">
                     <h3>Computer</h3>
                     <div class="choice-display" id="computerChoice">
@@ -59,8 +50,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Choices Buttons -->
             <div class="choices-grid" id="choicesGrid">
                 <button class="choice-btn" data-choice="rock" title="Rock">
                     <i class="fas fa-hand-back-fist"></i>
@@ -76,13 +65,9 @@
                 </button>
             </div>
         </main>
-
-        <!-- Reset Button -->
         <button class="reset-btn" id="resetBtn">
             <i class="fas fa-redo"></i> New Game
         </button>
-
-        <!-- Win Modal -->
         <div class="modal" id="winModal">
             <div class="modal-content">
                 <h2>🎉 Victory! 🎉</h2>
@@ -91,8 +76,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Connect CSS and JS -->
     <script src="script.js" defer></script>
 </body>
 </html>
