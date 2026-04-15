@@ -33,13 +33,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    height: 100vh;  /* CHANGED: min-height → height */
     background: var(--bg-primary);
     color: var(--text-primary);
-    overflow-x: hidden;
+    overflow: hidden;  /* CHANGED: overflow-x → overflow */
     transition: all 0.3s ease;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
