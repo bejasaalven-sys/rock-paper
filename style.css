@@ -42,11 +42,11 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    min-height: 100vh;
+    padding: 10px;  /* REDUCED: 20px → 10px */
+    height: 100vh;  /* CHANGED: min-height → height */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;  /* REDUCED: 2rem → 1rem */
 }
 
 /* Header */
