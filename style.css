@@ -94,6 +94,7 @@ body::after {
     text-transform: uppercase;
     color: var(--text-primary);
     text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 0 16px rgba(212,175,55,0.25);
+    text-align: center;
 }
 
 .theme-toggle {
