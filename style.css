@@ -81,12 +81,15 @@ body::after {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;        /* Centers everything */
     align-items: center;
     padding: 0.5rem 0;
+    width: 100%;
+    gap: 2rem;                      /* Space between title & toggle */
 }
 
 .title {
+    flex: 1;                        /* Takes available space */
     font-family: 'Oswald', sans-serif;
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 700;
@@ -96,7 +99,6 @@ body::after {
     text-shadow: 0 2px 0 rgba(0,0,0,0.6), 0 0 16px rgba(212,175,55,0.25);
     text-align: center;
 }
-
 .theme-toggle {
     background: linear-gradient(145deg, rgba(20,20,20,0.95), rgba(50,40,10,0.7));
     border: 1px solid var(--panel-border);
